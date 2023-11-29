@@ -85,16 +85,18 @@ public void AddRecord() throws InterruptedException {
 	
 }
 //death records
-public void deathrecord() {
-	HelperClass.getDriver().navigate().back();
+public void deathrecord() throws InterruptedException {
 	 JavascriptExecutor js = (JavascriptExecutor) HelperClass.driver;
 	 js.executeScript("arguments[0].scrollIntoView(true);",objl.Clickbirthanddeath);
 	 wait.until(ExpectedConditions.elementToBeClickable( objl.Clickbirthanddeath)).click();
+	 Thread.sleep(3000);
 	 objl.Clickbirthanddeath.click();
 	 wait.until(ExpectedConditions.elementToBeClickable( objl.deathRecord)).click();
+	 Thread.sleep(3000);
 	 objl.deathRecord.click();
 }
-public void adddeathRecord()  {
+public void adddeathRecord() throws InterruptedException  {
+	Thread.sleep(3000);
 	objl.adddeathRecord.click();
 	
 }
@@ -281,14 +283,14 @@ public void IncomeDetails(String name,String Invoicenumber,String date,String am
 //Add Birth
 public void AddBirthRecord(String ChildName,String Weight,String Birth,String CaseId,String Phone,String AddreSS,String Fathername) {
 	
-	SetChild(ChildName);
+	SetChild("Srija");
 	setGender();
-	SetWeight(Weight);
-	setBirthDate(Birth);
-	CaseId(CaseId);
-	phonenum(Phone);
-	SetAddress(AddreSS);
-	SetFather(Fathername);
+	SetWeight("48");
+	setBirthDate("11/10/2023");
+	CaseId("3456");
+	phonenum("9381033840");
+	SetAddress("byravunipadu");
+	SetFather("SrinivasReddy");
 
 	
 	
@@ -296,9 +298,9 @@ public void AddBirthRecord(String ChildName,String Weight,String Birth,String Ca
 
 //Add Death
 public void DeathRecord(String Case, String death,String guardian) {
-	DeathCase(Case);
-    deathDate(death);
-	gurdian(guardian);
+	DeathCase("3456");
+    deathDate("11/22/2023 11:52 PM");
+	gurdian("Deepak");
 	
 	
 	
@@ -307,10 +309,10 @@ public void DeathRecord(String Case, String death,String guardian) {
 //HumanResource
 
 public void HumanAction(String staffid,String Fname,String date,String Mail) {
-	this.staffID(staffid);
-	this.StaffFname(Fname);
-	this.DOB(date);
-	this.HumanMail(Mail);
+	this.staffID("56432");
+	this.StaffFname("vangavitti");
+	this.DOB("11/10/2023");
+	this.HumanMail("Human@gmail.com");
 }
 
 //Messaging
@@ -327,21 +329,21 @@ public void PostMessage() {
 public void message_box(String message) {
 	
 HelperClass.driver.switchTo().frame(objl.messageIframe);
-objl.messageBox.sendKeys(message);
+objl.messageBox.sendKeys("this is the good site to work");
 HelperClass.driver.switchTo().parentFrame();
 
 }
 public void SetTitle(String title) {
 	
-	objl.title.sendKeys(title);
+	objl.title.sendKeys("this is the sample title");
 }
 public void Notice(String NoticeDate) {
 	
-	objl.NoticeDate.sendKeys(NoticeDate);
+	objl.NoticeDate.sendKeys("10/22/2023");
 	
 }
 public void SetPublishOn(String publish) {
-	objl.PublishON.sendKeys(publish);
+	objl.PublishON.sendKeys("11/23/2023");
 }
 
 

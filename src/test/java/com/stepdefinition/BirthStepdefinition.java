@@ -20,7 +20,7 @@ public class BirthStepdefinition extends DataClass {
 	
 	@Given("user need to be login into the page")
 	public void user_need_to_be_login_into_the_page() {
-	   HelperClass.openPage(URL);
+	   HelperClass.openPage("https://demo.smart-hospital.in/site/login");
 	   objBDA.clickAdmin();
 	   objBDA.Sigin();
 	  HelperClass.log.info("succesfully launched the url and pass the Credentials ");
@@ -76,7 +76,7 @@ public class BirthStepdefinition extends DataClass {
 	}
 
 	@When("the user clicks on Death Record")
-	public void the_user_clicks_on_death_record() {
+	public void the_user_clicks_on_death_record() throws InterruptedException {
 		//objBDA.BirthAnddeath();
 		 HelperClass.log.info(" clicked the birth and death");
 	   objBDA.deathrecord();
@@ -84,7 +84,7 @@ public class BirthStepdefinition extends DataClass {
 	}
 
 	@When("the user clicks on Add Death Record")
-	public void the_user_clicks_on_add_death_record() { 
+	public void the_user_clicks_on_add_death_record() throws InterruptedException { 
 		objBDA.adddeathRecord();
 		 HelperClass.log.info(" click the Add death Record ");
 	}

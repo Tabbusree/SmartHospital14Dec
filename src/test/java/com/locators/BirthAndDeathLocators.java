@@ -44,9 +44,9 @@ public class BirthAndDeathLocators {
 	
 	@FindBy(xpath="//a[@href='https://demo.smart-hospital.in/admin/birthordeath/death']")
 	public WebElement deathRecord;
-	@FindBy(xpath="//a[@class='btn btn-primary btn-sm deathrecord']")
+	@FindBy(xpath="//a[@data-toggle='modal']")
 	public WebElement adddeathRecord;
-	@FindBy(xpath="(//input[@id='case_id'])[1]")
+	@FindBy(xpath="//div[contains(@class,'box-tools pull-right')]//a[1]")
 	public WebElement DeathCaseId;
 	@FindBy(xpath="(//input[@name='death_date'])[1]")
 	public WebElement Deathdate;
