@@ -8,7 +8,7 @@
 // //import io.cucumber.testng.AbstractTestNGCucumberTests;
 // //import io.cucumber.testng.CucumberOptions;
  
- @CucumberOptions(tags = "@DeathRecord",features="src/test/resources/Features/deathandbirth.feature",glue ="com.stepdefinition",plugin= {"json:target/cucumber-report.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},dryRun = false)
+ @CucumberOptions(tags = "",features="src/test/resources/Features",glue ="com.stepdefinition",plugin= {"json:target/cucumber-report.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},dryRun = false)
  public class TestRunner  extends AbstractTestNGCucumberTests {
 // 	@Override
 // 	extends AbstractTestNGCucumberTests
