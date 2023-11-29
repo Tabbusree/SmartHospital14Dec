@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\tsridhar\AppData\Local\Temp\testng-eclipse-206627207\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Missing the mandatory fields intentionally in new patient for OutPatient office&quot;, &quot;Checking the Out...)">runScenario("Missing the mandatory fields intentionally in new patient for OutPatient office", "Checking the Out...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Sending chat to the staff member&quot;, &quot;Checking the User Login feature&quot;)">runScenario("Sending chat to the staff member", "Checking the User Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checking the mandatory fields for the new patient details&quot;, &quot;Checking the billing Module&quot;)">runScenario("Checking the mandatory fields for the new patient details", "Checking the billing Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Intentionally failing in billig module&quot;, &quot;Checking the billing Module&quot;)">runScenario("Intentionally failing in billig module", "Checking the billing Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checking the mandatory fields for the new patient details in outpatient&quot;, &quot;Checking the Outpatient ...)">runScenario("Checking the mandatory fields for the new patient details in outpatient", "Checking the Outpatient ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Testing the Messaging&quot;, &quot;checking the Functionality of Messaging&quot;)">runScenario("Testing the Messaging", "checking the Functionality of Messaging")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Enter all fields in front office as inquiry and save&quot;, &quot;Checking the Front office Module&quot;)">runScenario("Enter all fields in front office as inquiry and save", "Checking the Front office Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User need to send the Required details&quot;, &quot;Checking the Functionality of Finance&quot;)">runScenario("User need to send the Required details", "Checking the Functionality of Finance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;checking the new patient at out patient&quot;, &quot;Checking the Inpatient Module&quot;)">runScenario("checking the new patient at out patient", "Checking the Inpatient Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Testing Pharmacy Functionality&quot;, &quot;Testing the functionality of the smart hospital&quot;)">runScenario("Testing Pharmacy Functionality", "Testing the functionality of the smart hospital")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Missing the mandatory fields intentionally in new patient&quot;, &quot;Checking the billing Module&quot;)">runScenario("Missing the mandatory fields intentionally in new patient", "Checking the billing Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Missing the mandatory fields intentionally in new patient for front office&quot;, &quot;Checking the Front of...)">runScenario("Missing the mandatory fields intentionally in new patient for front office", "Checking the Front of...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Searching the report and downloading the pdf&quot;, &quot;Checking the User Login feature&quot;)">runScenario("Searching the report and downloading the pdf", "Checking the User Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Intentionally failing in OutPatient module&quot;, &quot;Checking the Outpatient Module&quot;)">runScenario("Intentionally failing in OutPatient module", "Checking the Outpatient Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Sorting the component issue using component name&quot;, &quot;Checking the User Login feature&quot;)">runScenario("Sorting the component issue using component name", "Checking the User Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Intentionally failing in InPatient module&quot;, &quot;Checking the Inpatient Module&quot;)">runScenario("Intentionally failing in InPatient module", "Checking the Inpatient Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User need to send the Required details&quot;, &quot;Checking the Functionality of Finance&quot;)">runScenario("User need to send the Required details", "Checking the Functionality of Finance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Adding the payment details&quot;, &quot;Checking the User Login feature&quot;)">runScenario("Adding the payment details", "Checking the User Login feature")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;checking the new patient at out patient&quot;, &quot;Checking the Outpatient Module&quot;)">runScenario("checking the new patient at out patient", "Checking the Outpatient Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;user need to send the Required parameters&quot;, &quot;Checking the Functionality of Finance&quot;)">runScenario("user need to send the Required parameters", "Checking the Functionality of Finance")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Missing the mandatory fields intentionally in new patient for OutPatient office&quot;, &quot;Checking the Inp...)">runScenario("Missing the mandatory fields intentionally in new patient for OutPatient office", "Checking the Inp...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Testing Calendar Functionality&quot;, &quot;Testing the functionality of the smart hospital&quot;)">runScenario("Testing Calendar Functionality", "Testing the functionality of the smart hospital")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check the birth functionality&quot;, &quot;Checking the Functionality of Birth and Death&quot;)">runScenario("Check the birth functionality", "Checking the Functionality of Birth and Death")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check the death functionality&quot;, &quot;Checking the Functionality of Birth and Death&quot;)">runScenario("Check the death functionality", "Checking the Functionality of Birth and Death")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Enter all fields in front office as  seminar and save&quot;, &quot;Checking the Front office Module&quot;)">runScenario("Enter all fields in front office as  seminar and save", "Checking the Front office Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Testing Appointment Functionlaity&quot;, &quot;Testing the functionality of the smart hospital&quot;)">runScenario("Testing Appointment Functionlaity", "Testing the functionality of the smart hospital")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checking the mandatory fields for the new patient details in Inpatient&quot;, &quot;Checking the Inpatient Mo...)">runScenario("Checking the mandatory fields for the new patient details in Inpatient", "Checking the Inpatient Mo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Enter all fields in front office as visitor and save&quot;, &quot;Checking the Front office Module&quot;)">runScenario("Enter all fields in front office as visitor and save", "Checking the Front office Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;checking the new patient&quot;, &quot;Checking the billing Module&quot;)">runScenario("checking the new patient", "Checking the billing Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Missing the mandatory fields intentionally in new patient for OutPatient office&quot;, &quot;Checking the Out...)">
+                  </a> <!-- runScenario("Missing the mandatory fields intentionally in new patient for OutPatient office", "Checking the Out...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Missing the mandatory fields intentionally in new patient for OutPatient office","Checking the Outpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Sending chat to the staff member&quot;, &quot;Checking the User Login feature&quot;)">
+                  </a> <!-- runScenario("Sending chat to the staff member", "Checking the User Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Sending chat to the staff member","Checking the User Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checking the mandatory fields for the new patient details&quot;, &quot;Checking the billing Module&quot;)">
+                  </a> <!-- runScenario("Checking the mandatory fields for the new patient details", "Checking the billing Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checking the mandatory fields for the new patient details","Checking the billing Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Intentionally failing in billig module&quot;, &quot;Checking the billing Module&quot;)">
+                  </a> <!-- runScenario("Intentionally failing in billig module", "Checking the billing Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Intentionally failing in billig module","Checking the billing Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checking the mandatory fields for the new patient details in outpatient&quot;, &quot;Checking the Outpatient ...)">
+                  </a> <!-- runScenario("Checking the mandatory fields for the new patient details in outpatient", "Checking the Outpatient ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checking the mandatory fields for the new patient details in outpatient","Checking the Outpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Testing the Messaging&quot;, &quot;checking the Functionality of Messaging&quot;)">
+                  </a> <!-- runScenario("Testing the Messaging", "checking the Functionality of Messaging") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Testing the Messaging","checking the Functionality of Messaging")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Enter all fields in front office as inquiry and save&quot;, &quot;Checking the Front office Module&quot;)">
+                  </a> <!-- runScenario("Enter all fields in front office as inquiry and save", "Checking the Front office Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Enter all fields in front office as inquiry and save","Checking the Front office Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User need to send the Required details&quot;, &quot;Checking the Functionality of Finance&quot;)">
+                  </a> <!-- runScenario("User need to send the Required details", "Checking the Functionality of Finance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User need to send the Required details","Checking the Functionality of Finance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;checking the new patient at out patient&quot;, &quot;Checking the Inpatient Module&quot;)">
+                  </a> <!-- runScenario("checking the new patient at out patient", "Checking the Inpatient Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("checking the new patient at out patient","Checking the Inpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Testing Pharmacy Functionality&quot;, &quot;Testing the functionality of the smart hospital&quot;)">
+                  </a> <!-- runScenario("Testing Pharmacy Functionality", "Testing the functionality of the smart hospital") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Testing Pharmacy Functionality","Testing the functionality of the smart hospital")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Missing the mandatory fields intentionally in new patient&quot;, &quot;Checking the billing Module&quot;)">
+                  </a> <!-- runScenario("Missing the mandatory fields intentionally in new patient", "Checking the billing Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Missing the mandatory fields intentionally in new patient","Checking the billing Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Missing the mandatory fields intentionally in new patient for front office&quot;, &quot;Checking the Front of...)">
+                  </a> <!-- runScenario("Missing the mandatory fields intentionally in new patient for front office", "Checking the Front of...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Missing the mandatory fields intentionally in new patient for front office","Checking the Front office Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Searching the report and downloading the pdf&quot;, &quot;Checking the User Login feature&quot;)">
+                  </a> <!-- runScenario("Searching the report and downloading the pdf", "Checking the User Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Searching the report and downloading the pdf","Checking the User Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Intentionally failing in OutPatient module&quot;, &quot;Checking the Outpatient Module&quot;)">
+                  </a> <!-- runScenario("Intentionally failing in OutPatient module", "Checking the Outpatient Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Intentionally failing in OutPatient module","Checking the Outpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Sorting the component issue using component name&quot;, &quot;Checking the User Login feature&quot;)">
+                  </a> <!-- runScenario("Sorting the component issue using component name", "Checking the User Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Sorting the component issue using component name","Checking the User Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Intentionally failing in InPatient module&quot;, &quot;Checking the Inpatient Module&quot;)">
+                  </a> <!-- runScenario("Intentionally failing in InPatient module", "Checking the Inpatient Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Intentionally failing in InPatient module","Checking the Inpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User need to send the Required details&quot;, &quot;Checking the Functionality of Finance&quot;)">
+                  </a> <!-- runScenario("User need to send the Required details", "Checking the Functionality of Finance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User need to send the Required details","Checking the Functionality of Finance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Adding the payment details&quot;, &quot;Checking the User Login feature&quot;)">
+                  </a> <!-- runScenario("Adding the payment details", "Checking the User Login feature") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Adding the payment details","Checking the User Login feature")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;checking the new patient at out patient&quot;, &quot;Checking the Outpatient Module&quot;)">
+                  </a> <!-- runScenario("checking the new patient at out patient", "Checking the Outpatient Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("checking the new patient at out patient","Checking the Outpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user need to send the Required parameters&quot;, &quot;Checking the Functionality of Finance&quot;)">
+                  </a> <!-- runScenario("user need to send the Required parameters", "Checking the Functionality of Finance") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user need to send the Required parameters","Checking the Functionality of Finance")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Missing the mandatory fields intentionally in new patient for OutPatient office&quot;, &quot;Checking the Inp...)">
+                  </a> <!-- runScenario("Missing the mandatory fields intentionally in new patient for OutPatient office", "Checking the Inp...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Missing the mandatory fields intentionally in new patient for OutPatient office","Checking the Inpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Testing Calendar Functionality&quot;, &quot;Testing the functionality of the smart hospital&quot;)">
+                  </a> <!-- runScenario("Testing Calendar Functionality", "Testing the functionality of the smart hospital") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Testing Calendar Functionality","Testing the functionality of the smart hospital")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check the birth functionality&quot;, &quot;Checking the Functionality of Birth and Death&quot;)">
+                  </a> <!-- runScenario("Check the birth functionality", "Checking the Functionality of Birth and Death") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check the birth functionality","Checking the Functionality of Birth and Death")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check the death functionality&quot;, &quot;Checking the Functionality of Birth and Death&quot;)">
+                  </a> <!-- runScenario("Check the death functionality", "Checking the Functionality of Birth and Death") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check the death functionality","Checking the Functionality of Birth and Death")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Enter all fields in front office as  seminar and save&quot;, &quot;Checking the Front office Module&quot;)">
+                  </a> <!-- runScenario("Enter all fields in front office as  seminar and save", "Checking the Front office Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Enter all fields in front office as  seminar and save","Checking the Front office Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Testing Appointment Functionlaity&quot;, &quot;Testing the functionality of the smart hospital&quot;)">
+                  </a> <!-- runScenario("Testing Appointment Functionlaity", "Testing the functionality of the smart hospital") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Testing Appointment Functionlaity","Testing the functionality of the smart hospital")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checking the mandatory fields for the new patient details in Inpatient&quot;, &quot;Checking the Inpatient Mo...)">
+                  </a> <!-- runScenario("Checking the mandatory fields for the new patient details in Inpatient", "Checking the Inpatient Mo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checking the mandatory fields for the new patient details in Inpatient","Checking the Inpatient Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Enter all fields in front office as visitor and save&quot;, &quot;Checking the Front office Module&quot;)">
+                  </a> <!-- runScenario("Enter all fields in front office as visitor and save", "Checking the Front office Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Enter all fields in front office as visitor and save","Checking the Front office Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;checking the new patient&quot;, &quot;Checking the billing Module&quot;)">
+                  </a> <!-- runScenario("checking the new patient", "Checking the billing Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("checking the new patient","Checking the billing Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tsridhar\AppData\Local\Temp\testng-eclipse-206627207\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.TestRunner')
+data.setCell(0, 3, 188);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 16);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 15);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 14);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 14);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 12);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.TestRunner')
+data.setCell(6, 3, 12);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.TestRunner')
+data.setCell(7, 3, 12);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.TestRunner')
+data.setCell(8, 3, 11);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.TestRunner')
+data.setCell(9, 3, 10);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.TestRunner')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.TestRunner')
+data.setCell(11, 3, 9);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.TestRunner')
+data.setCell(12, 3, 9);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.TestRunner')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.TestRunner')
+data.setCell(14, 3, 8);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.TestRunner')
+data.setCell(15, 3, 8);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runner.TestRunner')
+data.setCell(16, 3, 8);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'runner.TestRunner')
+data.setCell(17, 3, 8);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'runner.TestRunner')
+data.setCell(18, 3, 8);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'runner.TestRunner')
+data.setCell(19, 3, 8);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'runner.TestRunner')
+data.setCell(20, 3, 8);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'runner.TestRunner')
+data.setCell(21, 3, 8);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'runner.TestRunner')
+data.setCell(22, 3, 7);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'runner.TestRunner')
+data.setCell(23, 3, 7);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'runner.TestRunner')
+data.setCell(24, 3, 7);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'runner.TestRunner')
+data.setCell(25, 3, 7);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'runner.TestRunner')
+data.setCell(26, 3, 6);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'runner.TestRunner')
+data.setCell(27, 3, 6);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'runner.TestRunner')
+data.setCell(28, 3, 6);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 450 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@37d28938)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Missing the mandatory fields intentionally in new patient", "Checking the billing Module")</span>
+                <span class="method-start">503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("checking the new patient", "Checking the billing Module")</span>
+                <span class="method-start">694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checking the mandatory fields for the new patient details", "Checking the billing Module")</span>
+                <span class="method-start">709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Intentionally failing in billig module", "Checking the billing Module")</span>
+                <span class="method-start">722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user need to send the Required parameters", "Checking the Functionality of Finance")</span>
+                <span class="method-start">738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User need to send the Required details", "Checking the Functionality of Finance")</span>
+                <span class="method-start">755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User need to send the Required details", "Checking the Functionality of Finance")</span>
+                <span class="method-start">770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Enter all fields in front office as visitor and save", "Checking the Front office Module")</span>
+                <span class="method-start">781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Missing the mandatory fields intentionally in new patient for front office", "Checking the Front of...)</span>
+                <span class="method-start">794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Enter all fields in front office as inquiry and save", "Checking the Front office Module")</span>
+                <span class="method-start">808 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Enter all fields in front office as  seminar and save", "Checking the Front office Module")</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Missing the mandatory fields intentionally in new patient for OutPatient office", "Checking the Inp...)</span>
+                <span class="method-start">824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("checking the new patient at out patient", "Checking the Inpatient Module")</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checking the mandatory fields for the new patient details in Inpatient", "Checking the Inpatient Mo...)</span>
+                <span class="method-start">840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Intentionally failing in InPatient module", "Checking the Inpatient Module")</span>
+                <span class="method-start">849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Testing Appointment Functionlaity", "Testing the functionality of the smart hospital")</span>
+                <span class="method-start">859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Testing Pharmacy Functionality", "Testing the functionality of the smart hospital")</span>
+                <span class="method-start">871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Testing Calendar Functionality", "Testing the functionality of the smart hospital")</span>
+                <span class="method-start">880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Testing the Messaging", "checking the Functionality of Messaging")</span>
+                <span class="method-start">889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Missing the mandatory fields intentionally in new patient for OutPatient office", "Checking the Out...)</span>
+                <span class="method-start">898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("checking the new patient at out patient", "Checking the Outpatient Module")</span>
+                <span class="method-start">907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checking the mandatory fields for the new patient details in outpatient", "Checking the Outpatient ...)</span>
+                <span class="method-start">917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Intentionally failing in OutPatient module", "Checking the Outpatient Module")</span>
+                <span class="method-start">926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Searching the report and downloading the pdf", "Checking the User Login feature")</span>
+                <span class="method-start">934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Adding the payment details", "Checking the User Login feature")</span>
+                <span class="method-start">945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Sorting the component issue using component name", "Checking the User Login feature")</span>
+                <span class="method-start">952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Sending chat to the staff member", "Checking the User Login feature")</span>
+                <span class="method-start">961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check the birth functionality", "Checking the Functionality of Birth and Death")</span>
+                <span class="method-start">970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check the death functionality", "Checking the Functionality of Birth and Death")</span>
+                <span class="method-start">978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">989 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
